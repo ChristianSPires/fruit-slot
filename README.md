@@ -34,3 +34,28 @@ O peso de cada símbolo está abaixo:
 * Banana = 8
 
 ## 3. Tabela de Pagamento
+
+* 3 BAR = 100
+* 3 Cherry = 50
+* 3 Lemon = 25
+* 3 Watermelon = 20
+* 3 Apple = 15
+* 3 Grape = 10
+* 3 Orange = 10
+* 3 Banana = 10
+
+## 4. Avaliação
+
+### 4.1. Itens Obrigatórios
+
+- [x] 1. Montagem da tela conforme o preview
+- [x] 2. Geração do resultado aleatoriamente conforme os pesos
+- [x] 3. Premiação de acordo com a tabela de pagamento
+- [] 4. Movimentação do Rodilho - Ref: [Slot Machine Animation](https://www.youtube.com/watch?v=fzgMaQZ3d-w)
+
+### 4.1. Itens Obrigatórios
+
+- [] 1. Uso de conteitos da Programação Orientada a Objetos
+- [] 2. Uso de Design Patterns para a construção do jogo
+- [] 3. Separação de lógica cliente / servidor 
+- [x] 4. Adição de efeitos sonoros

@@ -35,6 +35,8 @@ O peso de cada símbolo está abaixo:
 
 ## 3. Tabela de Pagamento
 
+- [x] Peso para cada situação de vitória.
+
 * 3 BAR = 100
 * 3 Cherry = 50
 * 3 Lemon = 25

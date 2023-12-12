@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+</head>
+<body>
+    <div id="background">
+        <div class="title" id="titleTop">
+            <span>Balance: 100</span>
+            <span>Winnings: 0</span>    
+        </div>
+        <div id="slotMachine">
+            <div class="columnSlotMachine" id="column1"><img id="symbol1" src="" alt=""></div>
+            <div class="columnSlotMachine" id="column2"><img id="symbol2" src="" alt=""></div>
+            <div class="columnSlotMachine" id="column3"><img id="symbol3" src="" alt=""></div>
+            <div id="winline"></div>            
+        </div>
+        <div id="winMessage" class="title">GOOD LUCK</div>
+        <div id="startButton" onclick="play()"><span>Play</span></div>
+        <audio id="playAudio" src="assets\sounds\play-sound-effect.mp3"></audio>
+        <audio id="spinAudio" src="assets\sounds\jackpot-rolling-sound-effect.mp3"></audio>
+        <audio id="winAudio" src="assets\sounds\winning-sound-effect.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

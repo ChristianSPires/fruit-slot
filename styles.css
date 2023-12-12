@@ -38,14 +38,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+#slotMachineIn {
+    position: relative;
+    width: 394px;
+    height: 217px;
 }
 
 .columnSlotMachine {
     position: absolute;
     width: 124px;
     height: 215px;
-    top: 25px;
-    overflow: hidden;
 }
 
 #winline {
@@ -54,20 +59,17 @@
     position: absolute;
     width: 373px;
     height: 30px;
-    top: 115px;
+    top: 93px;
+    left: 8px;
     display: none;
 }
 
-#column1 {
-    left: 28px;
-}
-
 #column2 {
-    left: 163px;
+    left: 134px;
 }
 
 #column3 {
-    left: 299px;
+    left: 271px;
 }
 
 #startButton {
@@ -93,8 +95,8 @@
     background-image: url("./assets/buttons/play_button_3.png");
     cursor: not-allowed;
     pointer-events: none;
-  }
+}
   
-  #startButton.disabled span {
+#startButton.disabled span {
     color: #808080;
-  }
+}

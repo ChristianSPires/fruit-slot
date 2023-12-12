@@ -9,7 +9,7 @@ const symbols = [
   "banana",
 ];
 
-const symbolWeights = [500, 4, 6, 6, 6, 8, 8, 8];
+const symbolWeights = [1, 4, 6, 6, 6, 8, 8, 8];
 
 const payTable = {
   bar: 100,
